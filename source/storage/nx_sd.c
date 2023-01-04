@@ -162,7 +162,7 @@ bool sd_mount()
 		else
 		{
 			gfx_con.mute = false;
-			EPRINTFARGS("SD-Karte konnte nicht eingelesen werden (FatFS-Fehler %d).\nStelle sicher, dass eine FAT-Partition vorhanden ist..", res);
+			EPRINTFARGS("SD-Karte konnte nicht eingelesen werden (FatFS-Fehler %d).\nStelle sicher, dass eine FAT-Partition vorhanden ist...", res);
 		}
 	}
 

@@ -346,7 +346,7 @@ ment_t ment_top[] = {
 	MDEF_HANDLER("Keys vom emuNAND auslesen", dump_emunand, colors[1]),
 	MDEF_CAPTION("---------------", colors[2]),
 	MDEF_HANDLER("Amiibo Keys auslesen", dump_amiibo_keys, colors[3]),
-	MDEF_MENU("Mariko Partials auslesen (Neustart erforderlich)", &menu_partials, colors[4]),
+	MDEF_MENU("Mariko PartialAES Keys auslesen (Neustart erforderlich)", &menu_partials, colors[4]),
 	MDEF_CAPTION("---------------", colors[5]),
 	MDEF_HANDLER("Payloads...", launch_tools, colors[0]),
 	MDEF_HANDLER("Neustart in hekate", launch_hekate, colors[1]),

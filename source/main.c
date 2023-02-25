@@ -351,9 +351,9 @@ ment_t ment_top[] = {
 	MDEF_HANDLER("Payloads...", launch_tools, colors[0]),
 	MDEF_HANDLER("Neustart in hekate", launch_hekate, colors[1]),
 	MDEF_CAPTION("---------------", colors[2]),
-	MDEF_HANDLER_EX("Neustart (OFW)", &STATE_REBOOT_BYPASS_FUSES, power_set_state_ex, colors[3]),
-	MDEF_HANDLER_EX("Neustart (RCM)", &STATE_REBOOT_RCM, power_set_state_ex, colors[4]),
-	MDEF_HANDLER_EX("Ausschalten", &STATE_POWER_OFF, power_set_state_ex, colors[5]),
+	MDEF_HANDLER_EX("Konsole neu starten (OFW)", &STATE_REBOOT_BYPASS_FUSES, power_set_state_ex, colors[3]),
+	MDEF_HANDLER_EX("Konsole neu starten (RCM)", &STATE_REBOOT_RCM, power_set_state_ex, colors[4]),
+	MDEF_HANDLER_EX("Konsole ausschalten", &STATE_POWER_OFF, power_set_state_ex, colors[5]),
 	MDEF_END()
 };
 
